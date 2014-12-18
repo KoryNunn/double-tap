@@ -1,0 +1,17 @@
+{
+  "name": "double-tap",
+  "version": "1.0.0",
+  "description": "runs a thing till tap is done.",
+  "main": "index.js",
+  "bin": {
+    "double-tap": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kory Nunn <knunn187@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "tap-finished": "0.0.1"
+  }
+}
