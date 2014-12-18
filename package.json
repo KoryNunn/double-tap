@@ -1,6 +1,6 @@
 {
   "name": "double-tap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Runs a thing till tap is done.",
   "main": "index.js",
   "bin": {
