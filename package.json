@@ -1,7 +1,7 @@
 {
   "name": "double-tap",
-  "version": "1.0.0",
-  "description": "runs a thing till tap is done.",
+  "version": "1.0.1",
+  "description": "Runs a thing till tap is done.",
   "main": "index.js",
   "bin": {
     "double-tap": "index.js"
@@ -13,5 +13,25 @@
   "license": "ISC",
   "dependencies": {
     "tap-finished": "0.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/korynunn/double-tap.git"
+  },
+  "keywords": [
+    "tap",
+    "tape",
+    "test",
+    "tests",
+    "close",
+    "kill",
+    "terminate",
+    "child",
+    "process",
+    "smokestack"
+  ],
+  "bugs": {
+    "url": "https://github.com/korynunn/double-tap/issues"
+  },
+  "homepage": "https://github.com/korynunn/double-tap"
 }
