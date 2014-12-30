@@ -10,5 +10,6 @@ process.stdin.pipe(child.stdin);
 child.stdout.pipe(process.stdout);
 child.stderr.pipe(process.stderr);
 child.stdout.pipe(finished(function(results) {
+    child.kill();
     process.exit(results.ok ? 0 : 1);
 }));
